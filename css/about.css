@@ -52,11 +52,7 @@ nav{
 .navbar ul li:hover::after{
   width: 100%;
 }
-.section{
-  width: 100%;
-  min-height: 100vh;
-  background-color: #5b805e
-}
+
 .container{
   width: 80%;
   display: block;
@@ -72,7 +68,7 @@ nav{
   width: 40%
 }
 .image-section img{
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 .content-section .title{
@@ -95,7 +91,6 @@ nav{
 }
 .content-section .social img{
   color: #a52a2a;
-  font-size: 30px;
   padding-left:0px 10px;
 }
 .content-section .social img{

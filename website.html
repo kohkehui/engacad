@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>engacad</title>
+    <link rel="stylesheet" href="css/website.css">
+  </head>
+  <body>
+      <section id="header">
+        <div class="container">
+          <img src="https://img.icons8.com/metro/52/000000/k-lowercase.png"
+          class="logo">
+          <div class="header-text">
+            <h1>Website Design</h1>
+            <span class="square"></span>
+            <p>In the process of website design, I had to learn about HTML and
+            CSS, and incorporate it into a type editor. Afterwhich, launch it
+            onto Github to publish it.</p>
+            <a href="#about">
+            <button class="common-btn"><span></span>Read More</button></a>
+            <div class="line">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+              <span class="line-3"></span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+<nav id="sideNav">
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="projects.html">PROJECTS</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+  </ul>
+</nav>
+<img src="images/menu.png" id="menuBtn">
+
+<!--about--->
+
+<section id="about">
+  <div class="about-left-col">
+    <h2>Start by creating new repository using Github Desptop</h2>
+    <span class="square2"></span>
+    <p>Download Github here: https://desktop.github.com/</p>
+  <img src="images/createresp.png">
+  <div class="line2">
+    <span class="line-4"></span>
+    <span class="line-5"></span>
+    <span class="line-6"></span>
+
+  </div>
+  </div>
+  <div class="about-right-col">
+    <h2>Choose an Empty file to place your repository.</h2>
+    <span class="square2"></span>
+    <img src="images/placefile.png">
+    <div class="line2">
+      <span class="line-4"></span>
+      <span class="line-5"></span>
+      <span class="line-6"></span>
+  </div>
+  </div>
+</section>
+
+<section id="aboutpg2">
+  <div class="about-left-colpg2">
+    <h2>Open your file using a type editor</h2>
+    <span class="square2"></span>
+    <p>Download Free Type editors</p>
+    <p>Notepad++:</p>
+    <p>Atom:</p>
+  <img src="images/atom.png">
+  <div class="line2">
+    <span class="line-4"></span>
+    <span class="line-5"></span>
+    <span class="line-6"></span>
+
+  </div>
+  </div>
+  <div class="about-right-colpg2">
+    <div class="about-textpag2">
+    <h2>When coding:</h2>
+    <span class="square2"></span>
+    <p>Remember to place all your images uder a 'images' folders first.
+    This should be done for all CSS files.</p>
+    <p>When naming your 'id' or 'class', try to put it all in lowercase
+       without any numbers or symbols. This tip could be used for naming
+       your images as well, because a little differences in spelling could
+       make the images unable to appear!</p>
+       <span class="square2"></span>
+       <p>I have listed some useful links below where I learn CSS and HTML.
+       There is also a link for useful Youtube channels that teaches Web Designing
+       which helped me ALOT!</p>
+       <div class="line2">
+         <span class="line-4"></span>
+         <span class="line-5"></span>
+         <span class="line-6"></span>
+     </div>
+    </div>
+
+    </div>
+
+
+</section>
+
+<section id="aboutpg3">
+  <div class="about-left-colpg3">
+    <h2>Publish your Repository via Github Desktop</h2>
+    <span class="square2"></span>
+  <img src="images/publish.png">
+  <div class="line2">
+    <span class="line-4"></span>
+    <span class="line-5"></span>
+    <span class="line-6"></span>
+
+  </div>
+  </div>
+  <div class="about-right-colpg3">
+    <h2>Check Github Web</h2>
+    <span class="square2"></span>
+    <p>File should be present in the respective Repository</p>
+    <img src="images/visiblefile.png">
+    <div class="line2">
+      <span class="line-4"></span>
+      <span class="line-5"></span>
+      <span class="line-6"></span>
+  </div>
+  </div>
+</section>
+
+<script>
+  var menuBtn = document.getElementById("menuBtn")
+  var sideNav = document.getElementById("sideNav")
+
+  sideNav.style.right = "-250px";
+  menuBtn.onclick = function(){
+    if(sideNav.style.right = "-250px"){
+      sideNav.style.right = "0px";
+    }
+    else{
+      sideNav.style.right = "-250px";
+    }
+  }
+</script>
+
+
+
+  </body>
+</html>
