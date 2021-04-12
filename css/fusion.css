@@ -5,7 +5,7 @@
 }
 #header{
   height: 100vh;
-  background-color:#2EB9B5;
+  background-color:#b9582e;
 }
 .container{
   margin-right: 100px;
@@ -104,7 +104,7 @@ nav ul li a{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #b92ead;
+  background-color:#8d2eb9;
 }
 .about-left-col h2{
   margin-left: 100px;
@@ -156,8 +156,8 @@ nav ul li a{
   margin-top: 50px;
 }
 .about-right-col img{
-  width: 80%;
-  margin-top: 30px;
+  width: 60%;
+  margin-top:0px;
   margin-left: 100px;
 }
 .about-right-col h2{
@@ -168,7 +168,7 @@ nav ul li a{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #b92ead;
+  background-color: #8d2eb9;
 }
 .about-left-colpg2{
   flex-basis: 50%;
@@ -192,55 +192,66 @@ nav ul li a{
 }
 .about-textpag2 p{
   margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .about-textpag2 h2{
   margin-left: 100px;
 }
-#aboutpg3{
-  padding: 100px 0;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #b92ead;
+#fusionprojs{
+  padding-top:40px;
+  background-color: #8d2eb9;
+  padding-bottom: 40px;
 }
-.about-left-colpg3 h2{
-  margin-left: 100px;
-}
-.about-left-colpg3{
-  flex-basis: 50%;
-  margin-top: 50px;
-}
-
-.about-left-colpg3 img{
-  width: 80%;
-  margin-top: 50px;
-  margin-left: 100px;
-}
-.about-right-colpg3{
-  flex-basis: 50%;
-  margin-top: 50px;
-}
-.about-right-colpg3 img{
-  width: 80%;
-  margin-top: 30px;
-  margin-left: 100px;
-}
-.about-right-colpg3 h2{
-  margin-left: 100px;
-}
-.about-right-colpg3 p{
-  margin-left: 100px;
+.ex03{
+  flex-basis: 33.3%;
   margin-top: 20px;
 }
-.social img{
-  float: right;
-  height: 64px;
-  width: 64px;
-  margin-left: 100px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.ex03 img{
+  width: 33%;
 }
-.social p{
-  float: right;
-  margin-left: 30px;
+.square3{
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #013056;
+  margin: 15px 0;
+}
+.line-7{
+  width: 15px;
+  height: 15px;
+  background: #013056;
+  display: inline-block;
+  margin-top: 20px;
+}
+.line-8{
+  width: 15px;
+  height: 15px;
+  background: #013056;
+  display: inline-block;
+  margin-top: 20px;
+}
+.line-9{
+  width: 15px;
+  height: 15px;
+  background: #013056;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.ex05{
+  flex-basis: 33.3%;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+.ex05 img{
+  width: 40%;
+}
+.chesspiece{
+  flex-basis: 33.3%;
+  margin-top: 20px;
+  margin-left: 900px;
+}
+.chesspiece img{
+  width: 80%;
 }
